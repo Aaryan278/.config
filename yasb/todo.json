@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1784755358,
+    "title": "Komorebi",
+    "description": "- shortcuts for switching workspaces with YASB\n- figure out what you can do in config file\n- add anything you like",
+    "category": "soon",
+    "created_at": "2026-07-22T22:22:38.355969",
+    "completed": true,
+    "order": 2
+  },
+  {
+    "id": 1784754688,
+    "title": "Configure YASB",
+    "description": "Configure YASB fully\n- shortcuts to switch workspaces\n- redefine looks to match rose pine theme\n- media player too big (configure in general) seems to resize based on title length (don't bother it's good)\n- see what else to do",
+    "category": "soon",
+    "created_at": "2026-07-22T22:11:28.636100",
+    "completed": true,
+    "order": 1
+  },
+  {
+    "id": 1784754614,
+    "title": "Table",
+    "description": "Get downstairs table shifted upstairs and setup rearranged for new table. THIS WEEKEND",
+    "category": "default",
+    "created_at": "2026-07-22T22:10:14.506576",
+    "completed": true,
+    "order": 0
+  }
+]
