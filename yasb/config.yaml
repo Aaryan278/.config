@@ -49,7 +49,6 @@ bars:
         - systray
         - todo
       right:
-        - komorebi_active_layout
         - cava
         - media
         - cpu
@@ -346,41 +345,6 @@ widgets:
         on_left: "toggle_menu"
         on_middle: "do_nothing"
         on_right: "toggle_label"
-  komorebi_active_layout:
-    type: "komorebi.active_layout.ActiveLayoutWidget"
-    options:
-      hide_if_offline: true
-      label: "{icon} {layout_name}"
-      layouts: ['bsp', 'columns', 'rows', 'grid', 'scrolling', 'vertical_stack', 'horizontal_stack', 'ultrawide_vertical_stack','right_main_vertical_stack']
-      layout_icons:
-        bsp: "\uebeb"
-        columns: "\uebf7"
-        rows: "\uec01"
-        grid: "\udb81\udf58"
-        scrolling: "\uebf7"
-        vertical_stack: "\uebee"
-        horizontal_stack: "\uebf0"
-        ultrawide_vertical_stack: "\uebee"
-        right_main_vertical_stack: "\uebf1"
-        monocle: "\uf06f"
-        maximized: "\uf06f"
-        floating: "\uf2d2"
-        paused: "\udb83\udf89"
-        tiling: "\udb81\ude40"
-      callbacks:
-        on_left: 'toggle_layout_menu'
-        on_middle: 'next_layout'
-        on_right: 'prev_layout'
-      layout_menu:
-        blur: true
-        round_corners: true
-        round_corners_type: "normal"
-        border_color: "System"
-        alignment: "left"
-        direction: "down"
-        offset_top: 6
-        offset_left: 0
-        show_layout_icons: true
   cava:
       type: "yasb.cava.CavaWidget"
       options:
