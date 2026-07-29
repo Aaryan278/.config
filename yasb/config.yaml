@@ -452,13 +452,16 @@ widgets:
         - {icon: "\udb81\udcc7", launch: "%APPDATA%\\Spotify\\Spotify.exe", name: "Spotify"}
         - {icon: "\uf1ff", launch: "%LOCALAPPDATA%\\Discord\\Update.exe --processStart Discord.exe", name: "Discord"}
   active_window:
-    type: "yasb.active_window.ActiveWindowWidget"
-    options:
-      label: "{win[app_name]}"
-      label_alt: ""
-      label_no_window: ""
-      label_icon: true
-      label_icon_size: 16
-      max_length: 56
-      max_length_ellipsis: "..."
-      monitor_exclusive: true
+      type: "yasb.active_window.ActiveWindowWidget"
+      options:
+        label: "{win[app_name]}"
+        label_alt: ""
+        label_no_window: ""
+        label_icon: true
+        label_icon_size: 16
+        max_length: 56
+        max_length_ellipsis: "..."
+        monitor_exclusive: true
+        rewrite:
+          - pattern: "Visual Studio Code"
+            replacement: "VS Code"
