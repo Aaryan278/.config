@@ -44,7 +44,7 @@ bars:
         - komorebi_workspaces
         - apps
       center:
-        - komorebi_stack
+        - active_window
         - clock
         - systray
         - todo
@@ -381,26 +381,6 @@ widgets:
         offset_top: 6
         offset_left: 0
         show_layout_icons: true
-  komorebi_stack:
-    type: "komorebi.stack.StackWidget"
-    options:
-      label_offline: "Offline"
-      label_window: "{process}"
-      label_window_active: "{process}"
-      label_no_window: "No Window"
-      label_zero_index: false
-      show_icons: "always"
-      icon_size: 14
-      max_length: 10
-      max_length_active: 20
-      max_length_ellipsis: ".."
-      hide_if_offline: false
-      show_only_stack: false
-      rewrite:
-        - pattern: "^(.+?)\\.exe$"
-          replacement: "\\1"
-          case: "lower"
-      enable_scroll_switching : true
   cava:
       type: "yasb.cava.CavaWidget"
       options:
@@ -471,3 +451,14 @@ widgets:
         - {icon: "\udb80\ude39", launch: "C:\\Program Files\\Mozilla Firefox\\firefox.exe", name: "Firefox"}
         - {icon: "\udb81\udcc7", launch: "%APPDATA%\\Spotify\\Spotify.exe", name: "Spotify"}
         - {icon: "\uf1ff", launch: "%LOCALAPPDATA%\\Discord\\Update.exe --processStart Discord.exe", name: "Discord"}
+  active_window:
+    type: "yasb.active_window.ActiveWindowWidget"
+    options:
+      label: "{win[app_name]}"
+      label_alt: ""
+      label_no_window: ""
+      label_icon: true
+      label_icon_size: 16
+      max_length: 56
+      max_length_ellipsis: "..."
+      monitor_exclusive: true
