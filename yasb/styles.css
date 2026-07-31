@@ -567,10 +567,10 @@
 }
 /* Applications */
 .apps-widget {
-    padding: 0px 6px;
+    padding: 0px 0px;
 }
 .apps-widget .widget-container {
-    padding: 4px 6px;
+    padding: 4px 2px;
 }
 .apps-widget .label {
     font-size: 17px;
