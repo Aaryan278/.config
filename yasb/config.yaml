@@ -348,22 +348,23 @@ widgets:
   cava:
       type: "yasb.cava.CavaWidget"
       options:
-        bar_height: 12
+        bar_height: 20
         min_bar_height: 1
         gradient: 1
         foreground: "#ebbcba"
         gradient_color_1: "#9ccfd8"
         gradient_color_2: "#ebbcba"
         gradient_color_3: "#c4a7e7"
-        bars_number: 8
+        bars_number: 50
         bar_spacing: 2
-        bar_width: 6
+        bar_width: 3
         bar_type: "bars"
         framerate: 60
         hide_empty: true
         source: "auto"
         orientation: "bottom"
         sleep_timer: 5
+        sensitivity: 70
   wifi:
     type: "yasb.wifi.WifiWidget"
     options:
