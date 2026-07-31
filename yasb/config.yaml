@@ -41,7 +41,6 @@ bars:
     widgets:
       left:
         - komorebi_workspaces
-        - apps
       center:
         - systray
         - clock
@@ -49,10 +48,7 @@ bars:
       right:
         - cava
         - media
-        - cpu
-        - microphone
         - volume
-        - notifications
         - power_menu
     context_menu: true
 widgets:
