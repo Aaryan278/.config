@@ -43,12 +43,12 @@ bars:
         - komorebi_workspaces
         - todo
       center:
+        - systray
         - clock
       right:
         - cava
         - media
         - volume
-        - systray
         - power_menu
     context_menu: true
 widgets:
@@ -192,7 +192,7 @@ widgets:
         round_corners: true
         round_corners_type: normal
         border_color: system
-        alignment: center
+        alignment: "center"
         direction: down
         thumbnail_corner_radius: 8
         thumbnail_size: 120
