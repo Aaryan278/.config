@@ -41,7 +41,6 @@ bars:
     widgets:
       left:
         - komorebi_workspaces
-        - todo
       center:
         - clock
         - systray
