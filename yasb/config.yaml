@@ -164,7 +164,7 @@ widgets:
   media:
     type: yasb.media.MediaWidget
     options:
-      label: '{title}'
+      label: '{title}{s}{artist}'
       label_alt: '{title}'
       separator: ' - '
       hide_empty: true
@@ -195,7 +195,7 @@ widgets:
         alignment: "center"
         direction: down
         thumbnail_corner_radius: 8
-        thumbnail_size: 120
+        thumbnail_size: 160
         max_title_size: 60
         max_artist_size: 20
         show_volume_slider: true
