@@ -58,3 +58,7 @@ alt + shift + 5         : komorebic move-to-workspace 4
 alt + shift + 6         : komorebic move-to-workspace 5
 alt + shift + 7         : komorebic move-to-workspace 6
 alt + shift + 8         : komorebic move-to-workspace 7
+
+# Toggle Discord (WS2) / Spotify (WS3) workspace rules
+alt + shift + r         : komorebic workspace-rule exe "Discord.exe" 0 1 ; komorebic workspace-rule exe "Spotify.exe" 0 2 ; komorebic enforce-workspace-rules
+alt + shift + t         : komorebic clear-workspace-rules 0 1 ; komorebic clear-workspace-rules 0 2
