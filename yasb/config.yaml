@@ -43,8 +43,8 @@ bars:
         - komorebi_workspaces
         - todo
       center:
-        - systray
         - clock
+        - systray
       right:
         - cava
         - media
