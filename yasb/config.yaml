@@ -275,7 +275,7 @@ widgets:
         gradient_color_3: "#c4a7e7"
         bars_number: 50
         bar_spacing: 2
-        bar_width: 3
+        bar_width: 2
         bar_type: "bars"
         framerate: 60
         hide_empty: true
