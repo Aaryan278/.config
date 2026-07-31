@@ -40,7 +40,6 @@ bars:
       right: 4
     widgets:
       left:
-        - home
         - komorebi_workspaces
         - apps
       center:
@@ -58,17 +57,6 @@ bars:
         - power_menu
     context_menu: true
 widgets:
-  home:
-    type: yasb.home.HomeWidget
-    options:
-      label: "<span>\uE8A9</span>"
-      power_menu: true
-      blur: true
-      round_corners: true
-      round_corners_type: normal
-      border_color: System
-      alignment: left
-      offset_left: -12
   clock:
     type: yasb.clock.ClockWidget
     options:
