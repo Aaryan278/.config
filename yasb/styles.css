@@ -35,15 +35,15 @@
     --yasb-accent-hover: #d9a3a1;
     --yasb-accent-fg: #191724;                    /* base */
     --icons-font: "Segoe Fluent Icons";
-    --icons-font-fallback: "JetBrainsMono NFP", "JetBrainsMono Nerd Font Propo";
-    --system-font: "Iosevka NFP", "JetBrainsMono Nerd Font Propo", "Bahnschrift";
+    --icons-font-fallback: "JetBrainsMono NF";
+    --system-font: "JetBrainsMono NF";
 }
 
 /* Global Defaults */
 * {
     font-size: 12px;
     font-weight: 400;
-    font-family: "Iosevka NFP", "JetBrainsMono Nerd Font Propo", "Bahnschrift";
+    font-family: "JetBrainsMono NF";
     color: var(--yasb-fg);
 }
 
