@@ -172,8 +172,8 @@ widgets:
         on_middle: do_nothing
         on_right: do_nothing
       max_field_size:
-        label: 20
-        label_alt: 20
+        label: 25
+        label_alt: 25
       show_thumbnail: true
       controls_only: false
       controls_left: true
@@ -196,7 +196,7 @@ widgets:
         thumbnail_corner_radius: 8
         thumbnail_size: 160
         max_title_size: 60
-        max_artist_size: 20
+        max_artist_size: 30
         show_volume_slider: true
       scrolling_label:
         enabled: true
