@@ -14,7 +14,7 @@ live-config = 1
 # 'autosens' will attempt to decrease sensitivity if the bars peak and increase slowly as
 # long as the bars don't peak. 0 = off, 1 = normal, 2..n = more aggressive.
 # increase to make sensitivity increase even faster.
-autosens = 0
+autosens = 2
 
 # Manual sensitivity in %. If autosens is enabled, this will only be the initial value.
 # 200 means double height. Accepts only non-negative values.
