@@ -11,7 +11,7 @@
   "border_width": 3,
   "border_offset": 0,
   "mouse_follows_focus": false,
-  "transparency": true,
+  "transparency": false,
   "transparency_alpha": 250,
   "animation": {
     "enabled": true,
